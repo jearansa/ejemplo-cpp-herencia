@@ -37,7 +37,7 @@ int main ( ) {
  Asal * emplead4 = new EmplDistr ("Antonio Camino", 55333666, 1200, "Granada");
  // 4. La siguiente operación da un problema de tipos, getRegion () no puede
  // ser invocado desde el puntero "emplead4"
- //cout << "La region del emplead4 es " << emplead4->getRegion() << endl;
+ // cout << "La region del emplead4 es " << emplead4->getRegion() << endl;
 
  // Sin embargo, si hacemos una operación de "downcast" del puntero,
  // la invocación es posible:
